@@ -1,0 +1,36 @@
+.test-image{
+    width: 200px;
+    height: 170px;
+   overflow: hidden;
+   float: left;
+   margin-right: 15px; 
+}
+.test-image2{
+    width: 200px;
+    height:170px;
+    background-image: url("images/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    float: left;
+}
+img{
+    max-width: 100%;
+}
+section{
+    clear: both;
+}
+.padding-margin{
+
+    width: 150px;
+    height: 150px;
+    border:1px solid black;
+    margin: 15px;
+    padding: 15px;
+    float: left;
+}
+.float{
+    float: left;
+    width: 150px;
+    height: 150px;
+    border:1px solid black;
+}

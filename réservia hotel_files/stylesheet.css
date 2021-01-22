@@ -1,5 +1,5 @@
 body{
-
+font-family: "Raleway", sans-serif;
     
 }
 img{
@@ -104,12 +104,11 @@ font-size: 10px;
 }
 .hebergement h2{
      margin: 0 2%;  
-        
-    
-  
-    
-   
-   
+          
+}
+.wrap-image{
+    height: 180px;
+    overflow: hidden;
 }
 .photo {
     border:solid 1px rgb(203, 203, 207);
@@ -133,7 +132,6 @@ flex-wrap:wrap;
     width: 15%;
     padding:15px;
     display:flex;
-    justify-content: center;
     flex-direction:column;
     
     background-color: #ccc;
