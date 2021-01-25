@@ -1,213 +1,203 @@
-body{
-font-family: "Raleway", sans-serif;
-    
+body {
+  font-family: "Raleway", sans-serif;
 }
-img{
-    max-width: 100%;
+img {
+  max-width: 100%;
 }
 header {
-
-    border: solid white 1px;
-    display: flex;
-    justify-content: space-between;
-    
-    
-
+  border: solid white 1px;
+  display: flex;
+  justify-content: space-between;
 }
-a:hover{
-        color:blue;
-        text-decoration:none;
-        background-color:black;}
+a:hover {
+  color: blue;
+  text-decoration: none;
+  background-color: black;
+}
 .menu {
-    
-    display: flex;
-    justify-content: space-around;
-    width:40%;
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
 }
-.menu a{
-    display:inline-block;
-    padding-top: 10px;
-    border-top: 1px solid white;
+.menu a {
+  display: inline-block;
+  padding-top: 10px;
+  border-top: 1px solid white;
 }
 
-.menu a:hover{
-   display: inline-block;
-    color:blue;
-    border-top: 1px solid blue;
-background:none}
-.filtre{
-  
-    color: black;
-    border: 1px solid grey;
-    border-radius: 20px;
-    display: inline;
-    padding: 15px 15px;
-    margin: 10px;
-    font-size: 15px;
-    display: inline-flex;
-    align-items: center;
-
-
-}.filtre i{color: blue;}
-.filtre img{
-    width: 32px;
-    height: 32px;
-    margin-right: 10px;
+.menu a:hover {
+  display: inline-block;
+  color: blue;
+  border-top: 1px solid blue;
+  background: none;
+}
+.filtre {
+  color: black;
+  border: 1px solid grey;
+  border-radius: 20px;
+  display: inline;
+  padding: 15px 15px;
+  margin: 10px;
+  font-size: 15px;
+  display: inline-flex;
+  align-items: center;
+}
+.filtre i {
+  color: blue;
+}
+.filtre img {
+  width: 32px;
+  height: 32px;
+  margin-right: 10px;
 }
 .recherche {
-
-    margin:20px;
-    display:flex;
-   align-items:center
+  margin: 20px;
+  display: flex;
+  align-items: center;
 }
 
 .filtre.btn {
-    background-color: blue;
-    color: #ccc;
+  background-color: blue;
+  color: #ccc;
 }
-.logo{
-    color: black;
-    font-size: 0.2 em;
-    display: inline;
-    border: 1px;
-    margin: 10px;
-    padding: left 1px; 
+.logo {
+  color: black;
+  font-size: 0.2 em;
+  display: inline;
+  border: 1px;
+  margin: 10px;
+  padding: left 1px;
 }
-.logo .logements{
-    display:flex ;
-    align-items: center;
-}
-
-
-#hebergementParent{
-border:solid 1px rgb(243, 239, 239);
-display:flex;
-flex-direction:row;
-font-size: 10px;
-}
-.sectionhebergement{
-    display: flex;
-    flex-flow: row wrap;
-}
-.hebergement{
-    width: 70%;
+.logo .logements {
+  display: flex;
+  align-items: center;
 }
 
-.hebergement, .lespluspopulaires{
-    background-color: #ccc;
-    padding: 25px;
-    border-radius:20px;
-    display:flex;
-    flex-direction:column;
-    margin: 15px;
-        
+#hebergementParent {
+  border: solid 1px rgb(243, 239, 239);
+  display: flex;
+  flex-direction: row;
+  font-size: 10px;
 }
-.hebergement h2{
-     margin: 0 2%;  
-          
+.sectionhebergement {
+  display: flex;
+  flex-flow: row wrap;
+}
+.hebergement {
+  width: 70%;
+}
+
+.hebergement,
+.lespluspopulaires {
+  background-color: #ccc;
+  padding: 25px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+}
+.hebergement h2 {
+  margin: 0 2%;
 }
 
 .photo {
-    border:solid 1px rgb(203, 203, 207);
-    display:flex;
-flex-wrap:wrap;
+  border: solid 1px rgb(203, 203, 207);
+  display: flex;
+  flex-wrap: wrap;
 }
-.photo .thumb .wrap-image{
-    background-image: url("images/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
-     width: 100%;
-    height:180px;
-    background-size: cover;
-    background-position: center;  
+.photo .thumb .wrap-image {
+  background-image: url("images/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
+  width: 100%;
+  height: 180px;
+  background-size: cover;
+  background-position: center;
 }
-.photo .thumb + .thumb .wrap-image{
-    background-image:url("images/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
+.photo .thumb + .thumb .wrap-image {
+  background-image: url("images/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
 }
-.photo .thumb + .thumb + .thumb .wrap-image{
-    background-image:url("images/reisetopia-B8WIgxA_PFU-unsplash.jpg");
+.photo .thumb + .thumb + .thumb .wrap-image {
+  background-image: url("images/reisetopia-B8WIgxA_PFU-unsplash.jpg");
 }
 
-.photo .thumb + .thumb + .thumb + .thumb .wrap-image{
-    background-image:url("images/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
+.photo .thumb + .thumb + .thumb + .thumb .wrap-image {
+  background-image: url("images/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
 }
-.photo .thumb + .thumb + .thumb + .thumb + .thumb .wrap-image{
-    background-image:url("images/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
+.photo .thumb + .thumb + .thumb + .thumb + .thumb .wrap-image {
+  background-image: url("images/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
 }
-.photo .thumb + .thumb + .thumb + .thumb + .thumb + .thumb .wrap-image{
-    background-image:url("images/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
+.photo .thumb + .thumb + .thumb + .thumb + .thumb + .thumb .wrap-image {
+  background-image: url("images/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
 }
 .thumb {
-    flex:0 0 29%;
-    margin: 2% 2%;
-    background-color:white;
-    border-radius:10px;
+  flex: 0 0 29%;
+  margin: 2% 2%;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.hebergement .thumb > img {
+  width: 100%;
+}
+.deuxiemelignehebergement {
+  display: flex;
+}
+.lespluspopulaires {
+  width: 15%;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
 
+  background-color: #ccc;
+  border-radius: 20px;
 }
-.hebergement .thumb > img{
-    width: 100%;
+.vignette {
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+  padding: 3px;
+  margin: 10px;
+  box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.19);
 }
-.deuxiemelignehebergement{
-    display: flex;
+.activiteMarseille {
+  border: solid 1px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
-.lespluspopulaires{
-    width: 15%;
-    padding:15px;
-    display:flex;
-    flex-direction:column;
-    
-    background-color: #ccc;
-    border-radius:20px;
+.activites {
+  flex: 0 0 20%;
+  overflow: hidden;
+  margin: 2% 2% 2% 2%;
+  padding-bottom: 40px;
+  background-color: white;
+  border-radius: 10px;
 }
-.vignette{
-    border-radius:8px;
-    display:flex;
-    flex-direction:row;
-    background-color: #fff;
-    padding:3px;
-    margin:10px;
-    box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.19);
+.activites img {
+  height: 100%;
+  max-width: none;
 }
-.activiteMarseille{
-    border: solid 1px;
-    display:flex;
-    flex-direction:row;
-    justify-content: space-between;
+.activites + .activites img {
+  height: auto;
+  max-width: 100%;
 }
-.activites{
-    
-    flex: 0 0 20%;
-    overflow: hidden;
-    margin: 2% 2% 2% 2%;
-    padding-bottom: 40px;
-    background-color: white;
-    border-radius: 10px;
-
+.activites + .activites + .activites img {
+  height: 100%;
+  max-width: none;
 }
-.activites img{
-    height: 100%;
-    max-width: none;
-
-}
-.activites + .activites img{
-    height: auto;
-    max-width: 100%;
-}
-.activites + .activites + .activites img{
-    height:100%;
-    max-width: none;
-}
-.activites + .activites + .activites + .activites img{
-    height: auto;
-    max-width: 100%;
+.activites + .activites + .activites + .activites img {
+  height: auto;
+  max-width: 100%;
 }
 .activite {
-    border:solid 1px;
-    display:flex;
-    flex-direction:column;
-    justify-content: space-around;
-    align-items: center
+  border: solid 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
-.footer{
-    background-color: #efefef;
-    display: flex;
-    justify-content: space-between;
+.footer {
+  background-color: #efefef;
+  display: flex;
+  justify-content: space-between;
 }
