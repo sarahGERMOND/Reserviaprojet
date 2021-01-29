@@ -122,10 +122,10 @@ a:hover {
 .photo .thumb + .thumb + .thumb + .thumb .wrap-image {
   background-image: url("images/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
 }
-.photo .thumb + .thumb + .thumb + .thumb + .thumb .wrap-image {
+#panier .wrap-image {
   background-image: url("images/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
 }
-.photo .thumb + .thumb + .thumb + .thumb + .thumb + .thumb .wrap-image {
+#amina .wrap-image {
   background-image: url("images/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
 }
 .thumb {
@@ -197,7 +197,7 @@ a:hover {
   align-items: center;
 }
 .footer {
-  background-color: #efefef;
+  background-color: #f2f2f2;
   display: flex;
   justify-content: space-between;
 }
