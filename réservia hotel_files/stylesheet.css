@@ -44,17 +44,11 @@ a:hover {
   border-radius: 30px;
   display: inline;
   padding-right: 10px;
+  margin: 10px;
   font-size: 15px;
   display: inline-flex;
   align-items: center;
   position: relative;
-  border: 1px solid white;
-  height: 45px;
-  font-size: 0, 1em;
-}
-.marker {
-  height: 45px;
-  float: left;
 }
 .filtre i {
   display: flex;
@@ -75,8 +69,8 @@ a:hover {
   padding: 10px;
 }
 .recherche {
-  margin: 20px;
-
+  margin: 30px;
+  display: flex;
   align-items: center;
 }
 
@@ -84,8 +78,6 @@ a:hover {
   background-color: #0065fc;
   color: #ccc;
   padding: 3px;
-  border-radius: 0px 15px 15px 0px;
-  margin: 0px;
 }
 
 .logo {
@@ -95,7 +87,6 @@ a:hover {
   border: 1px;
   margin: 10px;
   padding: left 1px;
-  align-items: center;
 }
 .logo .logements {
   display: flex;
@@ -116,9 +107,6 @@ a:hover {
 .hebergement {
   width: 60%;
   border: #ccc;
-}
-h3 {
-  font-size: 1.4em;
 }
 
 .hebergement,
@@ -199,8 +187,6 @@ h3 {
   padding: 3px;
   margin: 10px;
   box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.19);
-  width: 400px;
-  height: 125px;
 }
 .vignette .flex img {
   height: 100%;
